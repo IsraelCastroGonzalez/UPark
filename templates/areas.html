@@ -1,8 +1,14 @@
-<ion-view title="Areas">
-    <ion-content overflow-scroll="true" padding="true" style="background: url(img/0cv4xo2SdeQr7mKNtbKg_PlainBG.fw.png) no-repeat center;" scroll="false" class="has-header">
-        <div class="spacer" style="width: 300px; height: 80px;"></div>
-        <a ui-sref="area1" id="areas-button17" style="font-weight:lighter;border-radius:30px 30px 30px 30px;" class="button button-positive  button-block">Area 1</a>
-        <div class="spacer" style="width: 300px; height: 18px;"></div>
-        <a ui-sref="area2" id="areas-button18" style="font-weight:lighter;border-radius:30px 30px 30px 30px;" class="button button-positive  button-block">Area 2</a>
+<ion-view hide-nav-bar="true">
+    <ion-content overflow-scroll="true" padding="true" style="background: url(img/0cv4xo2SdeQr7mKNtbKg_PlainBG.fw.png) no-repeat center;" scroll="false" class="has-no-header">
+        <form class="list"></form>
+        <form class="list">
+            <div class="spacer" style="width: 300px; height: 48px;"></div>
+            <label class="item item-select" name="area">
+                <span class="input-label">Choose the Area</span>
+                <select></select>
+            </label>
+            <div class="spacer" style="width: 300px; height: 34px;"></div>
+        </form>
+        <a ui-sref="selectedArea" id="areas-button31" style="border-radius:30px 30px 30px 30px;" class="button button-positive  button-block">Find Spot!</a>
     </ion-content>
 </ion-view>

@@ -4,7 +4,7 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('area1Ctrl', function($scope) {
+.controller('selectedAreaCtrl', function($scope) {
 
 })
    
@@ -12,23 +12,11 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('area2Ctrl', function($scope) {
+.controller('generalCtrl', function($scope) {
 
 })
    
-.controller('generalArea1Ctrl', function($scope) {
-
-})
-   
-.controller('generalArea2Ctrl', function($scope) {
-
-})
-   
-.controller('handicapArea1Ctrl', function($scope) {
-
-})
-   
-.controller('handicapArea2Ctrl', function($scope) {
+.controller('handicapCtrl', function($scope) {
 
 })
  

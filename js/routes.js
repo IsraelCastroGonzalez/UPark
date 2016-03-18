@@ -16,10 +16,10 @@ angular.module('app.routes', [])
     controller: 'homeCtrl'
   })
 
-  .state('area1', {
-    url: '/area1',
-    templateUrl: 'templates/area1.html',
-    controller: 'area1Ctrl'
+  .state('selectedArea', {
+    url: '/selectedArea',
+    templateUrl: 'templates/selectedArea.html',
+    controller: 'selectedAreaCtrl'
   })
 
   .state('areas', {
@@ -28,34 +28,16 @@ angular.module('app.routes', [])
     controller: 'areasCtrl'
   })
 
-  .state('area2', {
-    url: '/area2',
-    templateUrl: 'templates/area2.html',
-    controller: 'area2Ctrl'
+  .state('general', {
+    url: '/generalArea',
+    templateUrl: 'templates/general.html',
+    controller: 'generalCtrl'
   })
 
-  .state('generalArea1', {
-    url: '/generalArea1',
-    templateUrl: 'templates/generalArea1.html',
-    controller: 'generalArea1Ctrl'
-  })
-
-  .state('generalArea2', {
-    url: '/generalArea2',
-    templateUrl: 'templates/generalArea2.html',
-    controller: 'generalArea2Ctrl'
-  })
-
-  .state('handicapArea1', {
-    url: '/handicapArea1',
-    templateUrl: 'templates/handicapArea1.html',
-    controller: 'handicapArea1Ctrl'
-  })
-
-  .state('handicapArea2', {
-    url: '/handicapArea2',
-    templateUrl: 'templates/handicapArea2.html',
-    controller: 'handicapArea2Ctrl'
+  .state('handicap', {
+    url: '/handicapArea',
+    templateUrl: 'templates/handicap.html',
+    controller: 'handicapCtrl'
   })
 
 $urlRouterProvider.otherwise('/home')
